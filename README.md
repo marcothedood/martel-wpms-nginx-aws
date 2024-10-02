@@ -52,7 +52,7 @@ bit easier:
 - Backups. Automatic backup is performed thru AWS Lifecycle rules.
   We backup both the EBS volumes (/) and (/var/public_html) daily,
   schedules occurs at 01:OO UTC Time.
-- Git-versioned /etc. We have set-up a secondary pvt repo to manage
+- Git-versioned /etc. We have set-up [a secondary pvt repo](https://github.com/marcothedood/wpms-etc) to manage
   every tweak and update made on the main configs (hosted on /etc).
   On the machine, etckeeper rules and performs a daily commit of whatever
   changes under /etc.
