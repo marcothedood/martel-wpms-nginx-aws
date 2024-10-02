@@ -15,7 +15,7 @@ the main features:
 
 ### WP Multisite Service
 
-An AMI (ami-id) ARM64-based to run WP Multisite + NGINX:
+An AMI `(ami-07c39ac3d711ea0f2)` ARM64-based to run WP Multisite + NGINX:
 - Wordpress installation configured to run as a multisite environment
 - Pre-configured `ca-bundle` to allow SSL Encryption thru srv and RDS.
 - PHP 8.2 w/ + fpm + deps. for mysql and imagick modules.
